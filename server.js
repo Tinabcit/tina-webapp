@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello from Express! Running under PM2.');
+    res.send('Hello from Express! Deployed successfully on Render.');
 });
 
 app.get('/health', (req, res) => {
